@@ -23,3 +23,6 @@ export interface PaginatedResponse<T> {
   limit: number;
   totalPages: number;
 }
+
+export type PaginatedResult<T> = PaginatedResponse<T>;
+

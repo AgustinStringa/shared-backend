@@ -22,8 +22,14 @@
     "@nestjs/core": "^11.0.0 || ^12.0.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0 || ^0.15.0",
+    "drizzle-orm": "^0.45.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.0"
+  },
+  "peerDependenciesMeta": {
+    "drizzle-orm": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@nestjs/common": "^12.0.1",
@@ -32,6 +38,7 @@
     "@types/node": "^24.0.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.15.1",
+    "drizzle-orm": "^0.45.4",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
     "typescript": "^6.0.2",
